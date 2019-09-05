@@ -1,5 +1,5 @@
+require('dotenv').config(); // Needs to load before any other code that needs it.
 const server = require('./api/server.js');
-require('dotenv').config();
 
 const port = 4000;
 server.listen(port, () => {
